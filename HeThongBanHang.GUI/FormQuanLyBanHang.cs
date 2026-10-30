@@ -27,8 +27,8 @@ namespace HeThongBanHang.GUI
             panelChinh.Controls.Clear();
 
             formCon.TopLevel = false;
-            formCon.FormBorderStyle = FormBorderStyle.None; 
-            formCon.Dock = DockStyle.Fill;                 
+            formCon.FormBorderStyle = FormBorderStyle.None;
+            formCon.Dock = DockStyle.Fill;
 
             panelChinh.Controls.Add(formCon);
             panelChinh.Tag = formCon;
@@ -38,6 +38,21 @@ namespace HeThongBanHang.GUI
         private void quảnLýSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MoFormCon(new FormQuanLySanPham(), "Quản Lý Sản Phẩm");
+        }
+
+        private void mnuQuanLyKhachHang_Click(object sender, EventArgs e)
+        {
+            MoFormCon(new QuanLyKhachHang(), "Quản Lý Khách Hàng");
+        }
+
+        private void mnuTaoDonHang_Click(object sender, EventArgs e)
+        {
+            MoFormCon(new FormTaoDonHang(), "Tạo Đơn Hàng");
+        }
+
+        private void mnuDanhSachDonHang_Click(object sender, EventArgs e)
+        {
+            MoFormCon(new FormDanhSachDonHang(), "Danh Sách Đơn Hàng");
         }
     }
 }
