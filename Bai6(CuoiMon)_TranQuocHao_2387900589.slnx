@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="HeThongBanHang.BLL/HeThongBanHang.BLL.csproj" />
+  <Project Path="HeThongBanHang.DAL/HeThongBanHang.DAL.csproj" />
+  <Project Path="HeThongBanHang.GUI/HeThongBanHang.GUI.csproj" />
+</Solution>
